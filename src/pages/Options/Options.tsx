@@ -1,3 +1,4 @@
+// src/pages/Options/Options.tsx
 import React from 'react';
 import './Options.css';
 

@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from '../../assets/img/logo.svg';
 import Greetings from '../../containers/Greetings/Greetings';
+import SidePanelBtn from '../Sidepanel/SidePanelBtn';
+
 import './Popup.css';
 
 const Popup = () => {
@@ -19,6 +21,7 @@ const Popup = () => {
         >
           Learn React!
         </a>
+        <SidePanelBtn />
       </header>
     </div>
   );
